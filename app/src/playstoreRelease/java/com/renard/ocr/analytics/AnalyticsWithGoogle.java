@@ -1,4 +1,4 @@
-package com.renard.ocr.analytics;
+package com.khoazero123.ocr.analytics;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -7,9 +7,9 @@ import android.preference.PreferenceManager;
 import android.util.Log;
 
 import com.google.firebase.analytics.FirebaseAnalytics;
-import com.renard.ocr.cropimage.image_processing.BlurDetectionResult;
-import com.renard.ocr.documents.creation.ocr.LayoutQuestionDialog;
-import com.renard.ocr.main_menu.language.OcrLanguage;
+import com.khoazero123.ocr.cropimage.image_processing.BlurDetectionResult;
+import com.khoazero123.ocr.documents.creation.ocr.LayoutQuestionDialog;
+import com.khoazero123.ocr.main_menu.language.OcrLanguage;
 
 /**
  * @author renard

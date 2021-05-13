@@ -230,7 +230,7 @@ extern "C" {
         boxGetGeometry(maxBlurLoc,&x,&y,&w,&h);
         //pixRenderBox(pixBlended,maxBlurLoc,2,L_SET_PIXELS);
         //create result
-        jclass cls = env->FindClass("com/renard/ocr/cropimage/image_processing/BlurDetectionResult");
+        jclass cls = env->FindClass("com/khoazero123/ocr/cropimage/image_processing/BlurDetectionResult");
         jmethodID constructor = env->GetMethodID(cls, "<init>", "(JDJ)V");
         return env->NewObject(cls, constructor, (jlong)pixBlended, (jdouble)blurValue, (jlong)maxBlurLoc);
     }
