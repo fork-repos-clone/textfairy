@@ -26,7 +26,7 @@ import android.view.MenuItem;
 import android.view.View;
 
 public class FeedbackActivity extends MonitoredActivity implements View.OnClickListener {
-    public static final String MARKET_URL = "market://details?id=com.renard.ocr";
+    public static final String MARKET_URL = "market://details?id=com.khoazero123.ocr";
     private boolean slideOutLeft = false;
 
     @Override

@@ -1,4 +1,4 @@
-package com.renard.ocr.billing
+package com.khoazero123.ocr.billing
 
 import android.app.Activity
 import android.app.Application
@@ -6,8 +6,8 @@ import android.util.Log
 import androidx.lifecycle.LiveData
 import com.android.billingclient.api.*
 import com.android.billingclient.api.BillingClient.BillingResponseCode.*
-import com.renard.ocr.billing.cache.AugmentedSkuDetails
-import com.renard.ocr.billing.cache.LocalBillingDb
+import com.khoazero123.ocr.billing.cache.AugmentedSkuDetails
+import com.khoazero123.ocr.billing.cache.LocalBillingDb
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

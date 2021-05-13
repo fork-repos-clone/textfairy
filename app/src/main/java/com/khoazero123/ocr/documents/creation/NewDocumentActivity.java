@@ -109,11 +109,11 @@ public abstract class NewDocumentActivity extends MonitoredActivity {
 
     protected final static int REQUEST_CODE_OCR = 3;
 
-    private static final String DATE_CAMERA_INTENT_STARTED_STATE = "com.renard.ocr.android.photo.TakePhotoActivity.dateCameraIntentStarted";
+    private static final String DATE_CAMERA_INTENT_STARTED_STATE = "com.khoazero123.ocr.android.photo.TakePhotoActivity.dateCameraIntentStarted";
     public static final String EXTRA_IMAGE_SOURCE = "image_source";
     private static Date dateCameraIntentStarted = null;
-    private static final String CAMERA_PIC_URI_STATE = "com.renard.ocr.android.photo.TakePhotoActivity.CAMERA_PIC_URI_STATE";
-    private static final String CAMERA_PIC_LOCAL_URI_STATE = "com.renard.ocr.android.photo.TakePhotoActivity.CAMERA_PIC_LOCAL_URI_STATE";
+    private static final String CAMERA_PIC_URI_STATE = "com.khoazero123.ocr.android.photo.TakePhotoActivity.CAMERA_PIC_URI_STATE";
+    private static final String CAMERA_PIC_LOCAL_URI_STATE = "com.khoazero123.ocr.android.photo.TakePhotoActivity.CAMERA_PIC_LOCAL_URI_STATE";
 
     private static Uri cameraPicUri = null;
     private static Uri localCameraPicUri = null;

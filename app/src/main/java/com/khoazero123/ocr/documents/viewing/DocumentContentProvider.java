@@ -33,7 +33,7 @@ import android.util.Log;
 public class DocumentContentProvider extends ContentProvider {
 
     private final static String TAG = DocumentContentProvider.class.getSimpleName();
-    private static final String AUTHORITY = "com.renard.ocr";
+    private static final String AUTHORITY = "com.khoazero123.ocr";
 
     public static final Uri CONTENT_URI = Uri.parse("content://" + AUTHORITY + "/documents");
 

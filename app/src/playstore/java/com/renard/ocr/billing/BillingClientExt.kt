@@ -1,4 +1,4 @@
-package com.renard.ocr.billing
+package com.khoazero123.ocr.billing
 
 import com.android.billingclient.api.*
 import kotlinx.coroutines.*

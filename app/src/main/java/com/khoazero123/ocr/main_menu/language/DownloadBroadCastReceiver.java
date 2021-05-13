@@ -26,8 +26,8 @@ import android.util.Log;
 
 public class DownloadBroadCastReceiver extends BroadcastReceiver {
     private static final String LOG_TAG = DownloadBroadCastReceiver.class.getSimpleName();
-    static final String ACTION_INSTALL_COMPLETED = "com.renard.ocr.ACTION_OCR_LANGUAGE_INSTALLED";
-    static final String ACTION_INSTALL_FAILED = "com.renard.ocr.ACTION_INSTALL_FAILED";
+    static final String ACTION_INSTALL_COMPLETED = "com.khoazero123.ocr.ACTION_OCR_LANGUAGE_INSTALLED";
+    static final String ACTION_INSTALL_FAILED = "com.khoazero123.ocr.ACTION_INSTALL_FAILED";
     static final String EXTRA_OCR_LANGUAGE = "ocr_language";
     static final String EXTRA_OCR_LANGUAGE_DISPLAY = "ocr_language_display";
     public static final String EXTRA_STATUS = "status";

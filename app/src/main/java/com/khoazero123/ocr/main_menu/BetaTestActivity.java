@@ -29,7 +29,7 @@ public class BetaTestActivity extends MonitoredActivity implements View.OnClickL
 
     private boolean slideOutLeft = false;
     private final static String BETA_TEST_GROUP_URL = "https://plus.google.com/communities/105320277782726490448";
-    private final static String GOOGLE_PLAY_TEST_URL = "https://play.google.com/apps/testing/com.renard.ocr";
+    private final static String GOOGLE_PLAY_TEST_URL = "https://play.google.com/apps/testing/com.khoazero123.ocr";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

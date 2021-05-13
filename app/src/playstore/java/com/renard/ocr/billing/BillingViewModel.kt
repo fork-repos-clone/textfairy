@@ -1,11 +1,11 @@
-package com.renard.ocr.billing
+package com.khoazero123.ocr.billing
 
 import android.app.Activity
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.Transformations
-import com.renard.ocr.billing.cache.AugmentedSkuDetails
+import com.khoazero123.ocr.billing.cache.AugmentedSkuDetails
 
 class BillingViewModel(application: Application) : AndroidViewModel(application) {
 

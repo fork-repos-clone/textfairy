@@ -1,4 +1,4 @@
-package com.renard.ocr.analytics
+package com.khoazero123.ocr.analytics
 
 import android.content.Context
 
