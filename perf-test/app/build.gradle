@@ -6,7 +6,7 @@ model {
         buildToolsVersion  = '23.0.1'
 
         defaultConfig.with {
-            applicationId = "ndk.renard.com.perftest"
+            applicationId = "ndk.khoazero123.com.perftest"
             minSdkVersion.apiLevel = 15
             targetSdkVersion.apiLevel = 22
         }

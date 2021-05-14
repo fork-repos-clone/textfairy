@@ -6,14 +6,14 @@
 
 
 extern "C" {
-JNIEXPORT jstring JNICALL Java_ndk_renard_com_perftest_MainActivity_stringFromJNI(JNIEnv *env,
+JNIEXPORT jstring JNICALL Java_ndk_khoazero123_com_perftest_MainActivity_stringFromJNI(JNIEnv *env,
                                                                                   jobject obj,
                                                                                   jstring filePathJni);
 };
 
 
 JNIEXPORT jstring JNICALL
-Java_ndk_renard_com_perftest_MainActivity_stringFromJNI(JNIEnv *env, jobject instance,
+Java_ndk_khoazero123_com_perftest_MainActivity_stringFromJNI(JNIEnv *env, jobject instance,
                                                         jstring filePathJni) {
     PixBinarizer binarizer(false);
 

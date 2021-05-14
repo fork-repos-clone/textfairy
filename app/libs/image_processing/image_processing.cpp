@@ -219,7 +219,7 @@ extern "C" {
 
     }
 
-    jobject Java_com_renard_ocr_cropimage_image_1processing_Blur_nativeBlurDetect(JNIEnv *env, jobject thiz, jlong nativePix) {
+    jobject Java_com_khoazero123_ocr_cropimage_image_1processing_Blur_nativeBlurDetect(JNIEnv *env, jobject thiz, jlong nativePix) {
         Pix *pixOrg = (PIX *) nativePix;
         PixBlurDetect blurDetector(false);
         l_float32 blurValue;

@@ -1,4 +1,4 @@
-package ndk.renard.com.perftest;
+package ndk.khoazero123.com.perftest;
 
 import android.app.Activity;
 import android.os.AsyncTask;
