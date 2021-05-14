@@ -26,5 +26,11 @@ script:
 
 after_failure: "cat $TRAVIS_BUILD_DIR/app/build/outputs/lint-results-debug.xml"
 
-
-
+deploy:
+  provider: s3
+  access_key_id: $S3_ACCESS_KEY_ID
+  secret_access_key: $S3_SECRET_ACCESS_KEY
+  bucket: $S3_BUCKET
+  skip_cleanup: true
+  local_dir: app/build/outputs
+  upload-dir: travis-builds
